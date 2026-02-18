@@ -102,11 +102,105 @@ class MedycznaMarihuana extends StatelessWidget {
 }
 
 // ─────────────────────────────────────────────
-// SCREEN 1: AGE GATE (18+ Verification)
+// SCREEN 1: AGE GATE (Neutral Date of Birth)
 // ─────────────────────────────────────────────
 
-class AgeGateScreen extends StatelessWidget {
+class AgeGateScreen extends StatefulWidget {
   const AgeGateScreen({super.key});
+
+  @override
+  State<AgeGateScreen> createState() => _AgeGateScreenState();
+}
+
+class _AgeGateScreenState extends State<AgeGateScreen> {
+  int? _selectedDay;
+  int? _selectedMonth;
+  int? _selectedYear;
+  String? _errorMessage;
+
+  final List<int> _days = List.generate(31, (i) => i + 1);
+  final List<int> _months = List.generate(12, (i) => i + 1);
+  final List<int> _years = List.generate(100, (i) => DateTime.now().year - i);
+
+  static const List<String> _monthNames = [
+    'Styczeń', 'Luty', 'Marzec', 'Kwiecień', 'Maj', 'Czerwiec',
+    'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 'Listopad', 'Grudzień',
+  ];
+
+  void _onSubmit() {
+    if (_selectedDay == null || _selectedMonth == null || _selectedYear == null) {
+      setState(() {
+        _errorMessage = 'Proszę podać pełną datę urodzenia.';
+      });
+      return;
+    }
+
+    // Validate the date is real
+    final maxDay = DateTime(_selectedYear!, _selectedMonth! + 1, 0).day;
+    if (_selectedDay! > maxDay) {
+      setState(() {
+        _errorMessage = 'Podana data nie istnieje.';
+      });
+      return;
+    }
+
+    final birthDate = DateTime(_selectedYear!, _selectedMonth!, _selectedDay!);
+    final today = DateTime.now();
+    int age = today.year - birthDate.year;
+    if (today.month < birthDate.month ||
+        (today.month == birthDate.month && today.day < birthDate.day)) {
+      age--;
+    }
+
+    if (age >= 18) {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (_) => const DisclaimerScreen()),
+      );
+    } else {
+      setState(() {
+        _errorMessage = 'Aplikacja jest dostępna wyłącznie dla osób pełnoletnich.';
+      });
+    }
+  }
+
+  Widget _buildDropdown<T>({
+    required String hint,
+    required T? value,
+    required List<T> items,
+    required String Function(T) labelBuilder,
+    required ValueChanged<T?> onChanged,
+    double width = 100,
+  }) {
+    return Container(
+      width: width,
+      padding: const EdgeInsets.symmetric(horizontal: 12),
+      decoration: BoxDecoration(
+        color: AppColors.surfaceLight,
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: AppColors.border, width: 1),
+      ),
+      child: DropdownButtonHideUnderline(
+        child: DropdownButton<T>(
+          value: value,
+          hint: Text(hint, style: TextStyle(color: AppColors.textMuted, fontSize: 14)),
+          dropdownColor: AppColors.surface,
+          isExpanded: true,
+          icon: Icon(Icons.arrow_drop_down, color: AppColors.textMuted, size: 20),
+          style: TextStyle(color: AppColors.textPrimary, fontSize: 15),
+          items: items.map((item) {
+            return DropdownMenuItem<T>(
+              value: item,
+              child: Text(labelBuilder(item)),
+            );
+          }).toList(),
+          onChanged: (val) {
+            onChanged(val);
+            setState(() => _errorMessage = null);
+          },
+        ),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -130,7 +224,7 @@ class AgeGateScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  // Logo / Icon
+                  // Logo
                   Container(
                     width: 100,
                     height: 100,
@@ -143,15 +237,11 @@ class AgeGateScreen extends StatelessWidget {
                       color: AppColors.surface,
                     ),
                     child: const Center(
-                      child: Text(
-                        '🌿',
-                        style: TextStyle(fontSize: 44),
-                      ),
+                      child: Text('🌿', style: TextStyle(fontSize: 44)),
                     ),
                   ),
                   const SizedBox(height: 32),
 
-                  // App Title
                   const Text(
                     'Medyczna\nMarihuana PL',
                     textAlign: TextAlign.center,
@@ -174,14 +264,13 @@ class AgeGateScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 48),
 
-                  // Age verification card
+                  // DOB card
                   Container(
                     padding: const EdgeInsets.all(24),
                     decoration: BoxDecoration(
                       color: AppColors.surface,
                       borderRadius: BorderRadius.circular(20),
-                      border:
-                          Border.all(color: AppColors.border, width: 1),
+                      border: Border.all(color: AppColors.border, width: 1),
                     ),
                     child: Column(
                       children: [
@@ -211,7 +300,7 @@ class AgeGateScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 20),
                         const Text(
-                          'Czy masz ukończone 18 lat?',
+                          'Podaj swoją datę urodzenia',
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.w700,
@@ -220,7 +309,7 @@ class AgeGateScreen extends StatelessWidget {
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          'Ta aplikacja zawiera informacje o medycznej marihuanie i jest przeznaczona wyłącznie dla osób pełnoletnich.',
+                          'Aby kontynuować, wprowadź swoją datę urodzenia.',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontSize: 14,
@@ -228,21 +317,73 @@ class AgeGateScreen extends StatelessWidget {
                             height: 1.5,
                           ),
                         ),
-                        const SizedBox(height: 28),
+                        const SizedBox(height: 24),
 
-                        // Confirm button
+                        // Day / Month / Year dropdowns
+                        Row(
+                          children: [
+                            Expanded(
+                              flex: 2,
+                              child: _buildDropdown<int>(
+                                hint: 'Dzień',
+                                value: _selectedDay,
+                                items: _days,
+                                labelBuilder: (d) => d.toString(),
+                                onChanged: (v) => setState(() => _selectedDay = v),
+                                width: double.infinity,
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              flex: 3,
+                              child: _buildDropdown<int>(
+                                hint: 'Miesiąc',
+                                value: _selectedMonth,
+                                items: _months,
+                                labelBuilder: (m) => _monthNames[m - 1],
+                                onChanged: (v) => setState(() => _selectedMonth = v),
+                                width: double.infinity,
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              flex: 2,
+                              child: _buildDropdown<int>(
+                                hint: 'Rok',
+                                value: _selectedYear,
+                                items: _years,
+                                labelBuilder: (y) => y.toString(),
+                                onChanged: (v) => setState(() => _selectedYear = v),
+                                width: double.infinity,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 8),
+
+                        // Error message
+                        if (_errorMessage != null)
+                          Padding(
+                            padding: const EdgeInsets.only(top: 8, bottom: 4),
+                            child: Text(
+                              _errorMessage!,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize: 13,
+                                color: AppColors.danger,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          ),
+
+                        const SizedBox(height: 20),
+
+                        // Submit button
                         SizedBox(
                           width: double.infinity,
                           height: 54,
                           child: ElevatedButton(
-                            onPressed: () {
-                              Navigator.of(context).pushReplacement(
-                                MaterialPageRoute(
-                                  builder: (_) =>
-                                      const DisclaimerScreen(),
-                                ),
-                              );
-                            },
+                            onPressed: _onSubmit,
                             style: ElevatedButton.styleFrom(
                               backgroundColor: AppColors.accent,
                               foregroundColor: AppColors.background,
@@ -255,32 +396,7 @@ class AgeGateScreen extends StatelessWidget {
                                 fontWeight: FontWeight.w700,
                               ),
                             ),
-                            child: const Text('Tak, mam 18+ lat'),
-                          ),
-                        ),
-                        const SizedBox(height: 12),
-
-                        // Deny button
-                        SizedBox(
-                          width: double.infinity,
-                          height: 54,
-                          child: OutlinedButton(
-                            onPressed: () {
-                              SystemNavigator.pop();
-                            },
-                            style: OutlinedButton.styleFrom(
-                              foregroundColor: AppColors.textSecondary,
-                              side: const BorderSide(
-                                  color: AppColors.border, width: 1),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(14),
-                              ),
-                              textStyle: const TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            child: const Text('Nie, wyjdź z aplikacji'),
+                            child: const Text('Kontynuuj'),
                           ),
                         ),
                       ],
