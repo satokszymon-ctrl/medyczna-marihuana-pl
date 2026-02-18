@@ -1,0 +1,542 @@
+{
+  "strains": [
+    {
+      "id": "aurora-001",
+      "brand": "Aurora",
+      "strainName": "Ghost Train Haze",
+      "thcContent": "22%",
+      "cbdContent": "<1%",
+      "type": "Sativa",
+      "medicalUse": ["Depresja", "Ból", "PTSD", "Brak apetytu", "ADHD", "Przewlekłe zmęczenie"],
+      "terpenes": [
+        {"name": "Terpinolen", "percentage": "dominujący", "effect": "Działanie pobudzające, antyseptyczne, przeciwutleniające"},
+        {"name": "Mircen", "percentage": "wysoki", "effect": "Relaksacja, działanie przeciwbólowe i przeciwzapalne"},
+        {"name": "Limonen", "percentage": "średni", "effect": "Poprawa nastroju, redukcja stresu, działanie antydepresyjne"},
+        {"name": "Humulen", "percentage": "niski", "effect": "Działanie przeciwzapalne, antybakteryjne, regulacja apetytu"},
+        {"name": "Pinen", "percentage": "niski", "effect": "Poprawa koncentracji, rozszerzenie oskrzeli"}
+      ],
+      "effects": ["Energia", "Euforia", "Kreatywność", "Skupienie", "Pobudzenie apetytu"],
+      "sideEffects": ["Paranoja przy wyższych dawkach", "Efekty psychodeliczne", "Suchość w ustach", "Przyspieszone bicie serca"],
+      "flavorProfile": ["Cytrusowy", "Sosnowy", "Jagodowy", "Pieprzny", "Kwiatowy"],
+      "origin": "Kanada",
+      "form": "Susz",
+      "packaging": "5g / 10g",
+      "prescriptionName": "Cannabis flos Aurora Deutschland GmbH THC 22% CBD ≤1%",
+      "description": "Ghost Train Haze to jedna z najbardziej znanych i cenionych odmian medycznej marihuany na polskim rynku. Produkowana przez Aurora Deutschland GmbH, wyróżnia się owocowym aromatem z wyraźnymi cytrusowymi nutami dzięki dominacji terpinolenu. Działanie jest silnie aktywizujące i stymulujące – zalecana do stosowania w ciągu dnia. Nie jest rekomendowana na noc, gdyż może utrudniać zasypianie. W niższych dawkach sprzyja koncentracji i kreatywności. Przy wyższych dawkach może wywoływać efekty psychodeliczne – zalecana doświadczonym pacjentom.",
+      "imageColor": "#00BCD4"
+    },
+    {
+      "id": "aurora-002",
+      "brand": "Aurora",
+      "strainName": "Delahaze",
+      "thcContent": "22%",
+      "cbdContent": "<1%",
+      "type": "Sativa",
+      "medicalUse": ["Depresja", "Stres", "Zaburzenia nastroju", "Ból"],
+      "terpenes": [
+        {"name": "Terpinolen", "percentage": "dominujący", "effect": "Działanie pobudzające, antyseptyczne"},
+        {"name": "Mircen", "percentage": "wysoki", "effect": "Relaksacja, działanie przeciwbólowe"},
+        {"name": "Limonen", "percentage": "średni", "effect": "Poprawa nastroju, redukcja lęku"},
+        {"name": "Pinen", "percentage": "niski", "effect": "Poprawa koncentracji, wsparcie dróg oddechowych"}
+      ],
+      "effects": ["Aktywizacja", "Stymulacja", "Poprawa witalności", "Poprawa nastroju"],
+      "sideEffects": ["Suchość w ustach", "Czerwone oczy", "Niepokój przy wyższych dawkach"],
+      "flavorProfile": ["Owocowy", "Sosnowy", "Cytrusowy"],
+      "origin": "Kanada",
+      "form": "Susz",
+      "packaging": "5g / 10g",
+      "prescriptionName": "Cannabis flos Aurora Deutschland GmbH THC 22% CBD ≤1%",
+      "description": "Delahaze to sativa będąca skrzyżowaniem Mango Haze i Lemon Skunk, dystrybuowana pod rejestracją Aurora 22%. Wyróżnia się owocowym aromatem z wyraźnymi sosnowymi nutami. Działanie jest aktywizujące, stymulujące i poprawiające witalność – doskonały wybór do stosowania w ciągu dnia. Ma silniejsze właściwości przeciwbólowe i aktywizujące w porównaniu z Ghost Train Haze, natomiast GTH lepiej sprawdza się przy nudnościach.",
+      "imageColor": "#FF9800"
+    },
+    {
+      "id": "aurora-003",
+      "brand": "Aurora",
+      "strainName": "Pink Kush",
+      "thcContent": "20%",
+      "cbdContent": "<1%",
+      "type": "Indica",
+      "medicalUse": ["Ból", "Bezsenność", "Lęk", "Migrena", "Spastyczność mięśni"],
+      "terpenes": [
+        {"name": "Mircen", "percentage": "dominujący", "effect": "Silna relaksacja, działanie nasenne i przeciwbólowe"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne, osłona żołądka"},
+        {"name": "Nerolidol", "percentage": "średni", "effect": "Działanie uspokajające, przeciwlękowe, przeciwbólowe"},
+        {"name": "Bisabolol", "percentage": "niski", "effect": "Działanie łagodzące, przeciwzapalne"}
+      ],
+      "effects": ["Euforia", "Relaksacja", "Odprężenie", "Senność", "Poprawa nastroju"],
+      "sideEffects": ["Senność", "Suchość w ustach", "Zwiększony apetyt", "Czerwone oczy"],
+      "flavorProfile": ["Kwiatowy", "Słodki", "Różany", "Drzewny"],
+      "origin": "Kanada",
+      "form": "Susz",
+      "packaging": "5g / 10g",
+      "prescriptionName": "Cannabis flos Aurora Deutschland GmbH THC 20% CBD ≤1%",
+      "description": "Pink Kush od Aurory to odmiana indica o silnym działaniu na ciało. Następca LA Confidential w portfolio producenta. Zapewnia głębokie odprężenie mięśni i ulgę od chronicznego bólu. W porównaniu z poprzednikiem oferuje mocno wyczuwalne działanie euforyczne wplecione między odprężenie i ukojenie. Odmiana typowo wieczorna, przeznaczona do stosowania przed snem.",
+      "imageColor": "#E91E63"
+    },
+    {
+      "id": "aurora-004",
+      "brand": "Aurora",
+      "strainName": "Sour Dough",
+      "thcContent": "29%",
+      "cbdContent": "<1%",
+      "type": "Hybrid",
+      "medicalUse": ["Silny ból", "Ból neuropatyczny", "Depresja", "Bezsenność", "Ból nowotworowy"],
+      "terpenes": [
+        {"name": "Kariofilen", "percentage": "dominujący", "effect": "Silne działanie przeciwzapalne i przeciwbólowe"},
+        {"name": "Limonen", "percentage": "wysoki", "effect": "Poprawa nastroju, redukcja lęku"},
+        {"name": "Mircen", "percentage": "średni", "effect": "Relaksacja, wspomaganie snu"}
+      ],
+      "effects": ["Silna ulga od bólu", "Relaksacja", "Poprawa nastroju", "Rozluźnienie"],
+      "sideEffects": ["Silna senność", "Suchość w ustach", "Zawroty głowy", "Paranoja"],
+      "flavorProfile": ["Kwaśny", "Ciastowy", "Gazowy", "Ziemisty"],
+      "origin": "Kanada",
+      "form": "Susz",
+      "packaging": "5g",
+      "prescriptionName": "Cannabis flos Aurora Deutschland GmbH THC 29% CBD ≤1%",
+      "description": "Aurora Sour Dough to najsilniejsza odmiana medycznej marihuany zarejestrowana dotychczas w Polsce – aż 29% THC. Hybryda z przewagą genu indica o dużych, zielonych pąkach z fioletowymi akcentami oraz intensywnym aromatem nut kwaśnych, ciastowych i gazowych. Dzięki rekordowej zawartości THC pacjenci mogą uzyskać mocne efekty terapeutyczne przy stosunkowo niskich dawkach. Ze względu na bardzo wysoką moc zaleca się wyjątkowo ostrożne dawkowanie.",
+      "imageColor": "#7B1FA2"
+    },
+    {
+      "id": "aurora-005",
+      "brand": "Aurora",
+      "strainName": "Farm Gas",
+      "thcContent": "27%",
+      "cbdContent": "<1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból chroniczny", "Bezsenność", "Stres", "Napięcie mięśniowe"],
+      "terpenes": [
+        {"name": "Kariofilen", "percentage": "dominujący", "effect": "Działanie przeciwzapalne i przeciwbólowe"},
+        {"name": "Mircen", "percentage": "wysoki", "effect": "Relaksacja, działanie nasenne"},
+        {"name": "Limonen", "percentage": "średni", "effect": "Poprawa nastroju"}
+      ],
+      "effects": ["Relaksacja", "Ulga od bólu", "Uspokojenie", "Euforia"],
+      "sideEffects": ["Senność", "Suchość w ustach", "Zawroty głowy"],
+      "flavorProfile": ["Gazowy", "Ziemisty", "Pieprzny"],
+      "origin": "Kanada",
+      "form": "Susz",
+      "packaging": "5g",
+      "prescriptionName": "Cannabis flos Aurora Deutschland GmbH THC 27% CBD ≤1%",
+      "description": "Aurora Farm Gas to mocna odmiana hybrydowa o zawartości 27% THC. Wraz z Sour Dough stanowi nową linię wysokopotencjalnych produktów Aurory na polskim rynku. Intensywny, gazowy aromat z ziemistymi nutami. Przeznaczona dla doświadczonych pacjentów potrzebujących silnego działania przeciwbólowego. Wymaga ostrożnego dawkowania.",
+      "imageColor": "#455A64"
+    },
+    {
+      "id": "slab-001",
+      "brand": "S-LAB",
+      "strainName": "Pink Kush",
+      "thcContent": "18%",
+      "cbdContent": "≤1%",
+      "type": "Indica",
+      "medicalUse": ["Ból chroniczny", "Bezsenność", "Stres", "Lęk", "Migrena", "Nudności"],
+      "terpenes": [
+        {"name": "Mircen", "percentage": "dominujący", "effect": "Silna relaksacja, działanie nasenne i przeciwbólowe"},
+        {"name": "Nerolidol", "percentage": "wysoki", "effect": "Działanie uspokajające, przeciwlękowe, przeciwbólowe"},
+        {"name": "Kariofilen", "percentage": "średni", "effect": "Działanie przeciwzapalne, osłona żołądka"},
+        {"name": "Bisabolol", "percentage": "niski", "effect": "Działanie łagodzące, właściwości lecznicze dla skóry"}
+      ],
+      "effects": ["Silna relaksacja ciała", "Senność", "Redukcja bólu", "Uspokojenie"],
+      "sideEffects": ["Silna senność", "Suchość w ustach", "Zwiększony apetyt"],
+      "flavorProfile": ["Roślinny", "Słodki", "Drzewny", "Kwiatowy"],
+      "origin": "Portugalia",
+      "form": "Susz",
+      "packaging": "15g",
+      "prescriptionName": "Cannabis flos S-LAB THC 18% CBD ≤1%",
+      "description": "Pink Kush od S-LAB to odmiana Indica 90% o zawartości THC 18%. Produkowana przez Tilray Portugal. Jedna z najsilniej działających odmian w portfolio S-Lab, ceniona za silne właściwości przeciwbólowe, uspokajające i nasenne. Aromat jest intensywny, ciężki i klasycznie „indyczny", z wyraźnymi nutami roślinnymi i delikatną słodyczą. Odmiana typowo nocna, stosowana głównie w celu silnej redukcji bólu i poprawy jakości snu.",
+      "imageColor": "#E91E63"
+    },
+    {
+      "id": "slab-002",
+      "brand": "S-LAB",
+      "strainName": "Rockstar",
+      "thcContent": "18%",
+      "cbdContent": "≤1%",
+      "type": "Indica",
+      "medicalUse": ["Migrena", "Napięcie mięśniowe", "Bezsenność", "Ból"],
+      "terpenes": [
+        {"name": "Mircen", "percentage": "dominujący", "effect": "Silna relaksacja, działanie nasenne"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne"},
+        {"name": "Limonen", "percentage": "niski", "effect": "Delikatna poprawa nastroju"}
+      ],
+      "effects": ["Redukcja bólu migrenowego", "Rozluźnienie mięśni", "Działanie nasenne", "Poprawa nastroju"],
+      "sideEffects": ["Silna senność", "Suchość w ustach", "Spowolnienie"],
+      "flavorProfile": ["Korzenny", "Deserowy", "Drzewny"],
+      "origin": "Portugalia",
+      "form": "Susz",
+      "packaging": "15g",
+      "prescriptionName": "Cannabis flos S-LAB THC 18% CBD ≤1%",
+      "description": "Rockstar to odmiana Indica 70% z zawartością THC 18%. Profil wyraźnie ukierunkowany na wieczorne wyciszenie, rozluźnienie mięśni i poprawę jakości snu. Aromat jest intensywny, cięższy, typowy dla odmian indica – z wyczuwalnymi nutami korzennymi i deserowymi. Odmiana typowo wieczorna/nocna, którą warto stosować gdy priorytetem jest wyciszenie organizmu i ułatwienie zaśnięcia.",
+      "imageColor": "#9C27B0"
+    },
+    {
+      "id": "slab-003",
+      "brand": "S-LAB",
+      "strainName": "Sour Diesel",
+      "thcContent": "18%",
+      "cbdContent": "≤1%",
+      "type": "Sativa",
+      "medicalUse": ["Depresja", "Zmęczenie", "Stres", "Brak apetytu"],
+      "terpenes": [
+        {"name": "Kariofilen", "percentage": "dominujący", "effect": "Działanie przeciwzapalne, przeciwbólowe"},
+        {"name": "Limonen", "percentage": "wysoki", "effect": "Poprawa nastroju, redukcja stresu"},
+        {"name": "Mircen", "percentage": "średni", "effect": "Delikatna relaksacja"}
+      ],
+      "effects": ["Energia", "Poprawa nastroju", "Kreatywność", "Skupienie"],
+      "sideEffects": ["Suchość w ustach", "Niepokój przy wyższych dawkach"],
+      "flavorProfile": ["Diesel", "Cytrusowy", "Ziemisty", "Ostry"],
+      "origin": "Portugalia",
+      "form": "Susz",
+      "packaging": "15g",
+      "prescriptionName": "Cannabis flos S-LAB THC 18% CBD ≤1%",
+      "description": "Sour Diesel od S-LAB to energetyzująca odmiana sativa o charakterystycznym, ostrym aromacie przypominającym paliwo z nutami cytrusów. Jedna z lepiej ocenianych odmian w portfolio S-LAB. Znana z szybkiego, stymulującego działania, które pomaga w walce z depresją i chronicznym zmęczeniem. Ze względu na pobudzające działanie zaleca się stosowanie wyłącznie w ciągu dnia.",
+      "imageColor": "#8BC34A"
+    },
+    {
+      "id": "slab-004",
+      "brand": "S-LAB",
+      "strainName": "Jack Herer",
+      "thcContent": "18%",
+      "cbdContent": "≤1%",
+      "type": "Sativa",
+      "medicalUse": ["Depresja", "Zmęczenie", "Brak apetytu", "Stres"],
+      "terpenes": [
+        {"name": "Terpinolen", "percentage": "dominujący", "effect": "Działanie pobudzające, antyseptyczne"},
+        {"name": "Pinen", "percentage": "wysoki", "effect": "Poprawa koncentracji, rozszerzenie oskrzeli"},
+        {"name": "Mircen", "percentage": "średni", "effect": "Relaksacja, działanie przeciwbólowe"}
+      ],
+      "effects": ["Energia", "Kreatywność", "Poprawa nastroju", "Skupienie"],
+      "sideEffects": ["Suchość w ustach", "Lekki niepokój przy wyższych dawkach"],
+      "flavorProfile": ["Ziołowy", "Sosnowy", "Korzenno-pieprzny"],
+      "origin": "Portugalia",
+      "form": "Susz",
+      "packaging": "15g",
+      "prescriptionName": "Cannabis flos S-LAB THC 18% CBD ≤1%",
+      "description": "Jack Herer od S-LAB to legendarna odmiana sativa, nazwana na cześć aktywisty na rzecz legalizacji. Oferuje wyważone działanie stymulujące, sprzyja skupieniu i kreatywności. Odmiana dzienna, idealna do stosowania rano lub w ciągu dnia, gdy potrzebna jest stymulacja umysłu bez nadmiernej senności.",
+      "imageColor": "#4CAF50"
+    },
+    {
+      "id": "tilray-001",
+      "brand": "Tilray",
+      "strainName": "Pink Kush",
+      "thcContent": "18%",
+      "cbdContent": "1%",
+      "type": "Indica",
+      "medicalUse": ["Ból chroniczny", "Bezsenność", "Stres", "Lęk", "Nudności"],
+      "terpenes": [
+        {"name": "Nerolidol", "percentage": "dominujący", "effect": "Działanie uspokajające, przeciwlękowe, przeciwbólowe"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne, interakcja z endokannabinoidami"},
+        {"name": "Bisabolol", "percentage": "średni", "effect": "Słodki, kwiatowy aromat, właściwości łagodzące"},
+        {"name": "Mircen", "percentage": "średni", "effect": "Relaksacja, wzmocnienie działania THC"}
+      ],
+      "effects": ["Głęboka relaksacja", "Euforia", "Senność", "Redukcja bólu", "Zwiększony apetyt"],
+      "sideEffects": ["Senność", "Suchość w ustach", "Suchość oczu", "Zwiększony apetyt"],
+      "flavorProfile": ["Kwiatowy", "Słodki", "Jagodowy", "Drzewny"],
+      "origin": "Portugalia / Kanada",
+      "form": "Susz",
+      "packaging": "15g",
+      "prescriptionName": "Cannabis flos Tilray THC 18% CBD 1%",
+      "description": "Pink Kush od Tilray to hybryda z dominacją indica (90/10), genetycznie wywodząca się z OG Kush. Dominacja nerolidolu i kariofilenu nadaje jej przyprawowo-kwiatowy aromat. Zapewnia silne działanie przeciwbólowe i przeciwwymiotne. Szczególnie skuteczna w łagodzeniu stresu i lęku – idealny wybór na wieczór, zapewniający spokojny, regenerujący sen. Dostępna również pod rejestracją S-LAB oraz od Aurora i Polfarmex.",
+      "imageColor": "#F06292"
+    },
+    {
+      "id": "tilray-002",
+      "brand": "Tilray",
+      "strainName": "Master Kush",
+      "thcContent": "18%",
+      "cbdContent": "1%",
+      "type": "Indica",
+      "medicalUse": ["Bezsenność", "Ból chroniczny", "Zmęczenie", "Napięcie mięśniowe"],
+      "terpenes": [
+        {"name": "Mircen", "percentage": "dominujący", "effect": "Silna relaksacja, działanie nasenne"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne"},
+        {"name": "Linalol", "percentage": "średni", "effect": "Działanie uspokajające, przeciwlękowe"}
+      ],
+      "effects": ["Relaksacja", "Spokój", "Senność", "Redukcja bólu"],
+      "sideEffects": ["Silna senność", "Suchość w ustach", "Spowolnienie", "Uczucie obciążenia"],
+      "flavorProfile": ["Ziemisty", "Cytrusowy", "Korzenny"],
+      "origin": "Portugalia / Kanada",
+      "form": "Susz",
+      "packaging": "15g",
+      "prescriptionName": "Cannabis flos Tilray THC 18% CBD 1%",
+      "description": "Master Kush od Tilray to mocna indica wywodząca się z krzyżowania dwóch odmian Hindu Kush. Oferuje przede wszystkim relaksację i spokój. Sprawdza się szczególnie w walce z bezsennością i przewlekłym zmęczeniem. Nie jest zalecana w ciągu dnia ze względu na silne działanie nasenne. Odmiana o stabilnym, przewidywalnym działaniu.",
+      "imageColor": "#7B1FA2"
+    },
+    {
+      "id": "tilray-003",
+      "brand": "Tilray",
+      "strainName": "Blueberry",
+      "thcContent": "18%",
+      "cbdContent": "1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból", "Stres", "Bezsenność", "Lęk"],
+      "terpenes": [
+        {"name": "Mircen", "percentage": "dominujący", "effect": "Relaksacja, działanie nasenne"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne"},
+        {"name": "Limonen", "percentage": "średni", "effect": "Poprawa nastroju"}
+      ],
+      "effects": ["Euforia", "Relaksacja", "Poprawa nastroju", "Senność"],
+      "sideEffects": ["Senność", "Suchość w ustach", "Silna gastrofaza", "Dezorientacja"],
+      "flavorProfile": ["Jagodowy", "Słodki", "Owocowy"],
+      "origin": "Portugalia / Kanada",
+      "form": "Susz",
+      "packaging": "15g",
+      "prescriptionName": "Cannabis flos Tilray THC 18% CBD 1%",
+      "description": "Blueberry od Tilray to hybrydowa odmiana z przewagą genów indica o charakterystycznym jagodowym aromacie. Początek działania to mocna euforia, po czym efekt zmienia się na głęboki relaks i odprężenie. Znana również jako Cannabis flos Tilray 18/1. Odmiana wieczorna, może powodować silną gastrofazę (zwiększony apetyt).",
+      "imageColor": "#3F51B5"
+    },
+    {
+      "id": "spectrum-001",
+      "brand": "Spectrum Therapeutics",
+      "strainName": "Kush Mints",
+      "thcContent": "28%",
+      "cbdContent": "<0.5%",
+      "type": "Hybrid",
+      "medicalUse": ["Silny ból", "Bezsenność", "Stres", "Nudności", "Napięcie mięśniowe"],
+      "terpenes": [
+        {"name": "Limonen", "percentage": "dominujący", "effect": "Poprawa nastroju, redukcja lęku"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Silne działanie przeciwzapalne i przeciwbólowe"},
+        {"name": "Linalol", "percentage": "średni", "effect": "Działanie uspokajające, relaksujące"},
+        {"name": "Selinadien", "percentage": "niski", "effect": "Iglasty profil sensoryczny"}
+      ],
+      "effects": ["Silna relaksacja", "Ulga od bólu", "Uspokojenie", "Euforia"],
+      "sideEffects": ["Silna senność", "Suchość w ustach", "Zawroty głowy", "Paranoja"],
+      "flavorProfile": ["Miętowy", "Ziemisty", "Iglasty", "Słodki"],
+      "origin": "Kanada",
+      "form": "Susz",
+      "packaging": "5g",
+      "prescriptionName": "Cannabis flos Canopy Growth THC 28% CBD <0,5%",
+      "description": "Kush Mints to najnowsza odmiana od Spectrum Therapeutics (Canopy Growth). Hybryda 50/50 (Animal Mints × Bubba Kush) o zawartości 28% THC. Finalistka prestiżowego rankingu Karma Cup 2023. Kwiaty są gęste, twarde i żywiczne z fioletowymi odcieniami, pokryte grubą warstwą trichomów. Miętowo-ziemisty profil sensoryczny. Odmiana o silnym działaniu wymagająca ostrożnego dawkowania.",
+      "imageColor": "#009688"
+    },
+    {
+      "id": "cosma-001",
+      "brand": "Cosma",
+      "strainName": "Gorilla Girl (Balasa)",
+      "thcContent": "20%",
+      "cbdContent": "≤1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból", "Stres", "Stwardnienie rozsiane", "Nudności", "Brak apetytu"],
+      "terpenes": [
+        {"name": "Mircen", "percentage": "dominujący", "effect": "Relaksacja, działanie przeciwbólowe"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne"},
+        {"name": "Limonen", "percentage": "średni", "effect": "Poprawa nastroju, redukcja stresu"},
+        {"name": "Pinen", "percentage": "niski", "effect": "Poprawa koncentracji"}
+      ],
+      "effects": ["Relaksacja", "Euforia", "Poprawa apetytu", "Redukcja nudności"],
+      "sideEffects": ["Suchość w ustach", "Czerwone oczy", "Senność"],
+      "flavorProfile": ["Słodki", "Cytrusowy", "Sosnowy", "Ziemisty"],
+      "origin": "Polska",
+      "form": "Susz",
+      "packaging": "5g / 10g",
+      "prescriptionName": "Cannabis flos COSMA THC 20% CBD ≤1%",
+      "description": "Gorilla Girl (znana też jako Balasa) to hybryda z dominacją sativa (60/40) od polskiego producenta Cosma S.A. Powstała z krzyżówki Gorilla Glue i Girl Scout Cookies. Uprawiana w szklarni z doświetlaniem UV w standardzie GACP, ręcznie trymowana, 100% naturalna bez pestycydów. Bogata w trichomy. Jedna z najlepiej ocenianych odmian na polskim rynku.",
+      "imageColor": "#4CAF50"
+    },
+    {
+      "id": "cosma-002",
+      "brand": "Cosma",
+      "strainName": "Mac Monkey",
+      "thcContent": "21%",
+      "cbdContent": "≤1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból", "Depresja", "Lęk", "Bezsenność"],
+      "terpenes": [
+        {"name": "Limonen", "percentage": "dominujący", "effect": "Poprawa nastroju, działanie antydepresyjne"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne"},
+        {"name": "Mircen", "percentage": "średni", "effect": "Relaksacja, działanie przeciwbólowe"},
+        {"name": "Humulen", "percentage": "niski", "effect": "Regulacja apetytu, działanie antybakteryjne"},
+        {"name": "Pinen", "percentage": "niski", "effect": "Poprawa koncentracji"},
+        {"name": "Linalol", "percentage": "niski", "effect": "Działanie uspokajające"}
+      ],
+      "effects": ["Poprawa nastroju", "Relaksacja", "Łagodna energia", "Redukcja lęku"],
+      "sideEffects": ["Suchość w ustach", "Senność", "Czerwone oczy"],
+      "flavorProfile": ["Lukrecjowy", "Owocowy", "Słodki"],
+      "origin": "Polska",
+      "form": "Susz",
+      "packaging": "5g / 10g",
+      "prescriptionName": "Cannabis flos COSMA THC 21% CBD ≤1%",
+      "description": "Mac Monkey to nowość od polskiego producenta Cosma S.A., dostępna w aptekach od marca 2025 roku. Odmiana hybrydowa o bogatym profilu terpenowym z dominacją limonenu. Działanie pobudzające z lukrecjowym, owocowym aromatem. Łączy łagodną stymulację z relaksacją – wszechstronna odmiana do stosowania o różnych porach dnia.",
+      "imageColor": "#FF5722"
+    },
+    {
+      "id": "cantourage-001",
+      "brand": "Cantourage",
+      "strainName": "MAC 1",
+      "thcContent": "25%",
+      "cbdContent": "≤1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból chroniczny", "Depresja", "Lęk", "Bezsenność", "Stres"],
+      "terpenes": [
+        {"name": "Limonen", "percentage": "dominujący", "effect": "Poprawa nastroju, redukcja lęku"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne i przeciwbólowe"},
+        {"name": "Mircen", "percentage": "średni", "effect": "Relaksacja, działanie nasenne"},
+        {"name": "Linalol", "percentage": "niski", "effect": "Działanie uspokajające"}
+      ],
+      "effects": ["Euforia", "Relaksacja", "Kreatywność", "Ulga od bólu"],
+      "sideEffects": ["Suchość w ustach", "Silna senność", "Paranoja", "Zawroty głowy"],
+      "flavorProfile": ["Cytrusowy", "Kwiatowy", "Kremowy", "Korzenny"],
+      "origin": "Kanada / Portugalia",
+      "form": "Susz",
+      "packaging": "5g",
+      "prescriptionName": "Cannabis flos Cantourage THC 25% CBD ≤1%",
+      "description": "MAC 1 (Miracle Alien Cookies) od Cantourage to premium odmiana hybrydowa łącząca genetykę Alien Cookies F2 oraz Miracle 15. Dystrybuowana przez Pharmavitae. Niemiecka firma Cantourage współpracuje z rzemieślniczymi hodowcami z całego świata, stawiając na najwyższą jakość i zrównoważony rozwój. Jedna z najlepiej ocenianych odmian przez polskich pacjentów.",
+      "imageColor": "#673AB7"
+    },
+    {
+      "id": "four20-001",
+      "brand": "Four 20 Pharma",
+      "strainName": "GG4 (Gorilla Glue)",
+      "thcContent": "22%",
+      "cbdContent": "<1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból", "Stres", "Bezsenność", "Depresja"],
+      "terpenes": [
+        {"name": "Kariofilen", "percentage": "dominujący", "effect": "Silne działanie przeciwzapalne i przeciwbólowe"},
+        {"name": "Mircen", "percentage": "wysoki", "effect": "Relaksacja, działanie nasenne"},
+        {"name": "Limonen", "percentage": "średni", "effect": "Poprawa nastroju"}
+      ],
+      "effects": ["Silna relaksacja", "Euforia", "Senność", "Efekt couch-lock"],
+      "sideEffects": ["Silna senność", "Suchość w ustach", "Spowolnienie", "Zawroty głowy"],
+      "flavorProfile": ["Czekoladowy", "Kawowy", "Ziemisty", "Dieselowy"],
+      "origin": "Niemcy",
+      "form": "Susz",
+      "packaging": "5g / 10g",
+      "prescriptionName": "Cannabis flos Four 20 Pharma THC 22% CBD <1%",
+      "description": "GG4 (Gorilla Glue #4) od Four 20 Pharma to hybryda z dominacją sativa (63/37). Powstała z połączenia genów Chem's Sister, Sour Dubb i Chocolate Diesel. Mimo przewagi sativa oferuje mocny efekt relaksacyjny, który często prowadzi do efektu „couch-lock". Odmiana o bardzo silnym działaniu, polecana doświadczonym użytkownikom.",
+      "imageColor": "#795548"
+    },
+    {
+      "id": "synoptis-001",
+      "brand": "Synoptis Pharma",
+      "strainName": "Island Sweet Skunk",
+      "thcContent": "22%",
+      "cbdContent": "<1%",
+      "type": "Hybrid",
+      "medicalUse": ["Depresja", "Stres", "Ból", "Zmęczenie"],
+      "terpenes": [
+        {"name": "Terpinolen", "percentage": "dominujący", "effect": "Działanie pobudzające, antyseptyczne"},
+        {"name": "Mircen", "percentage": "wysoki", "effect": "Relaksacja, działanie przeciwbólowe"},
+        {"name": "Kariofilen", "percentage": "średni", "effect": "Działanie przeciwzapalne"},
+        {"name": "Pinen", "percentage": "niski", "effect": "Poprawa koncentracji"},
+        {"name": "Ocymen", "percentage": "niski", "effect": "Działanie przeciwwirusowe"}
+      ],
+      "effects": ["Pobudzenie", "Poprawa nastroju", "Energia", "Skupienie"],
+      "sideEffects": ["Suchość w ustach", "Niepokój", "Czerwone oczy"],
+      "flavorProfile": ["Korzenny", "Miętowy", "Pieprzny", "Sosnowy", "Ziołowy"],
+      "origin": "Portugalia",
+      "form": "Susz",
+      "packaging": "5g / 10g",
+      "prescriptionName": "Cannabis flos Synoptis Pharma THC 22% CBD <1%",
+      "description": "Island Sweet Skunk to hybryda od Synoptis Pharma (producent związany z Tilray Brands), dostępna w polskich aptekach od maja 2025 roku. Odmiana o dominacji terpinolenu, zapewniająca pobudzające działanie z korzenno-miętowym aromatem. Idealna do stosowania w ciągu dnia. Nowość szybko zyskująca popularność wśród pacjentów.",
+      "imageColor": "#26A69A"
+    },
+    {
+      "id": "synoptis-002",
+      "brand": "Synoptis Pharma",
+      "strainName": "Beach Crasher",
+      "thcContent": "22%",
+      "cbdContent": "<1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból", "Stres", "Lęk", "Bezsenność"],
+      "terpenes": [
+        {"name": "Mircen", "percentage": "dominujący", "effect": "Relaksacja, działanie przeciwbólowe"},
+        {"name": "Limonen", "percentage": "wysoki", "effect": "Poprawa nastroju, redukcja lęku"},
+        {"name": "Kariofilen", "percentage": "średni", "effect": "Działanie przeciwzapalne"},
+        {"name": "Linalol", "percentage": "niski", "effect": "Działanie uspokajające"},
+        {"name": "Nerolidol", "percentage": "niski", "effect": "Działanie przeciwlękowe"},
+        {"name": "Bisabolol", "percentage": "niski", "effect": "Działanie łagodzące"}
+      ],
+      "effects": ["Relaksacja", "Redukcja stresu", "Poprawa snu", "Łagodna euforia"],
+      "sideEffects": ["Senność", "Suchość w ustach", "Spowolnienie"],
+      "flavorProfile": ["Drzewny", "Pieprzny", "Pikantny", "Różany"],
+      "origin": "Portugalia",
+      "form": "Susz",
+      "packaging": "5g / 10g",
+      "prescriptionName": "Cannabis flos Synoptis Pharma THC 22% CBD <1%",
+      "description": "Beach Crasher to hybryda od Synoptis Pharma, dostępna w polskich aptekach od maja 2025 roku. Odmiana o działaniu relaksującym z drzewnym, pieprznym aromatem z różanymi nutami. Bogaty profil terpenowy z dominacją mircenu i obecnością linalolu, nerolidolu i bisabololu czyni ją lepszym wyborem na wieczorne stosowanie niż Island Sweet Skunk.",
+      "imageColor": "#42A5F5"
+    },
+    {
+      "id": "suprobion-001",
+      "brand": "SUPROBION",
+      "strainName": "Cannabis flos SUPROBION",
+      "thcContent": "23%",
+      "cbdContent": "<1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból", "Bezsenność", "Stres", "Nudności"],
+      "terpenes": [
+        {"name": "Kariofilen", "percentage": "dominujący", "effect": "Działanie przeciwzapalne i przeciwbólowe"},
+        {"name": "Mircen", "percentage": "wysoki", "effect": "Relaksacja, wspomaganie snu"},
+        {"name": "Limonen", "percentage": "średni", "effect": "Poprawa nastroju"}
+      ],
+      "effects": ["Relaksacja", "Ulga od bólu", "Uspokojenie", "Poprawa snu"],
+      "sideEffects": ["Senność", "Suchość w ustach", "Czerwone oczy"],
+      "flavorProfile": ["Korzenny", "Ziemisty", "Pieprzny"],
+      "origin": "Europa",
+      "form": "Susz",
+      "packaging": "5g",
+      "prescriptionName": "Cannabis flos SUPROBION THC 23% CBD <1%",
+      "description": "SUPROBION oferuje susz medyczny o zawartości THC 23%. Odmiana hybrydowa plasująca się w średnio-wyższej półce mocy na polskim rynku. Przeznaczona do waporyzacji jako surowiec farmaceutyczny.",
+      "imageColor": "#FF7043"
+    },
+    {
+      "id": "phytopurbio-001",
+      "brand": "PhytoPur Bio",
+      "strainName": "Cannabis flos PhytoPur Bio",
+      "thcContent": "24%",
+      "cbdContent": "≤1%",
+      "type": "Hybrid",
+      "medicalUse": ["Ból chroniczny", "Bezsenność", "Depresja", "Stres"],
+      "terpenes": [
+        {"name": "Mircen", "percentage": "dominujący", "effect": "Relaksacja, działanie przeciwbólowe"},
+        {"name": "Kariofilen", "percentage": "wysoki", "effect": "Działanie przeciwzapalne"},
+        {"name": "Limonen", "percentage": "średni", "effect": "Poprawa nastroju"}
+      ],
+      "effects": ["Relaksacja", "Ulga od bólu", "Poprawa nastroju", "Wspomaganie snu"],
+      "sideEffects": ["Senność", "Suchość w ustach", "Zawroty głowy"],
+      "flavorProfile": ["Ziołowy", "Ziemisty", "Cytrusowy"],
+      "origin": "Europa",
+      "form": "Susz",
+      "packaging": "5g",
+      "prescriptionName": "Cannabis flos PhytoPur Bio THC 24% CBD ≤1%",
+      "description": "PhytoPur Bio to odmiana hybrydowa o zawartości THC 24%, wprowadzona na polski rynek w sierpniu 2025 roku. Producent stawia na ekologiczną, certyfikowaną uprawę konopi medycznych. Wysoka zawartość THC zapewnia silne działanie terapeutyczne. Przeznaczona do waporyzacji.",
+      "imageColor": "#66BB6A"
+    }
+  ],
+  "educationalContent": {
+    "title": "Jak uzyskać receptę na medyczną marihuanę w Polsce?",
+    "lastUpdated": "2025-11",
+    "sections": [
+      {
+        "heading": "Podstawy prawne",
+        "content": "Medyczna marihuana jest legalna w Polsce od 1 listopada 2017 roku na podstawie nowelizacji Ustawy o przeciwdziałaniu narkomanii. Surowiec farmaceutyczny Cannabis flos jest zaliczany do środków odurzających grupy I-N. Recepty wystawiane są na druku Rpw (recepta na preparaty zawierające substancje psychotropowe)."
+      },
+      {
+        "heading": "Krok 1: Wizyta stacjonarna u lekarza",
+        "content": "Od 7 listopada 2024 roku obowiązują przepisy wymagające osobistej konsultacji z lekarzem w gabinecie lekarskim. Teleporady oraz e-wizyty są możliwe wyłącznie w przypadku kontynuacji terapii u lekarza POZ. Aby rozpocząć leczenie, należy osobiście udać się do specjalisty. Lekarz zbierze wywiad, przeanalizuje dokumentację medyczną i oceni, czy terapia konopna jest wskazana. Przygotuj dokumentację potwierdzającą Twoje schorzenie."
+      },
+      {
+        "heading": "Krok 2: Recepta Rpw",
+        "content": "Jeśli lekarz uzna, że medyczna marihuana może pomóc w Twoim leczeniu, wystawi receptę Rpw. Recepta jest ważna przez 30 dni od daty wystawienia. Lekarz określi dawkowanie, formę stosowania oraz konkretną odmianę. Podczas wizyty lekarz przepisuje odmiany dostępne w aptekach w Twojej okolicy – warto wcześniej sprawdzić dostępność."
+      },
+      {
+        "heading": "Krok 3: Realizacja w aptece",
+        "content": "Receptę realizujesz w aptece posiadającej medyczną marihuanę w ofercie. Nie wszystkie apteki ją prowadzą – przed wizytą warto zadzwonić i sprawdzić dostępność konkretnej odmiany. Przy realizacji podajesz kod e-recepty i PESEL. Farmaceuta wydaje lek w oryginalnym, nienaruszonym opakowaniu. Czasem konieczne jest zamówienie leku, co może potrwać kilka dni."
+      },
+      {
+        "heading": "Krok 4: Waporyzacja – zalecana forma stosowania",
+        "content": "W Polsce medyczną marihuanę stosuje się głównie w formie suszu do waporyzacji lub olejków (pod język lub do waporyzacji). Palenie nie jest zalecaną formą podawania. Zaleca się używanie certyfikowanych waporyzatorów medycznych. Zacznij od małych dawek (np. 0,1g suszu) i stopniowo zwiększaj. Temperatura waporyzacji wpływa na profil uwalnianych kannabinoidów i terpenów."
+      },
+      {
+        "heading": "Koszty leczenia",
+        "content": "Medyczna marihuana nie jest refundowana przez NFZ – pacjent ponosi pełny koszt leczenia. Cena grama suszu waha się od ok. 20 do 60 zł w zależności od odmiany, producenta i marży apteki. Warto porównywać ceny w różnych aptekach. Czasami można trafić na promocje, szczególnie w przypadku produktów zbliżających się do końca terminu ważności."
+      },
+      {
+        "heading": "Ważne informacje prawne",
+        "content": "Posiadanie medycznej marihuany bez ważnej recepty jest nielegalne. Nie wolno prowadzić pojazdów mechanicznych pod wpływem marihuany medycznej. Przechowuj produkt w oryginalnym opakowaniu z etykietą apteczną. Wiele odmian ma stosunkowo krótki termin ważności – warto to sprawdzić przy zakupie. Nie ma możliwości wymiany recepty na inną odmianę po wizycie."
+      },
+      {
+        "heading": "Producenci dostępni w Polsce",
+        "content": "Na polskim rynku aptecznym dostępne są produkty od wielu producentów: Aurora, S-LAB, Tilray, Spectrum Therapeutics (Canopy Growth), Cosma, Cantourage, Four 20 Pharma, Synoptis Pharma, SUPROBION, PhytoPur Bio, Medezin, ODI Pharma, Pharmacann, CanPoland i Polfarmex. Oferta stale się poszerza. Dostępność poszczególnych odmian jest zmienna i zależy od dostaw oraz rejestracji produktów przez URPL."
+      }
+    ]
+  }
+}
