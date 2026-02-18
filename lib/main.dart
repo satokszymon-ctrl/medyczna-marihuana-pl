@@ -191,7 +191,7 @@ class AgeGateScreen extends StatelessWidget {
                             color: AppColors.warning.withOpacity(0.1),
                             borderRadius: BorderRadius.circular(12),
                           ),
-                          child: const Row(
+                          child: Row(
                             children: [
                               Icon(Icons.shield_outlined,
                                   color: AppColors.warning, size: 22),
@@ -323,7 +323,7 @@ class DisclaimerScreen extends StatelessWidget {
                     color: AppColors.danger.withOpacity(0.2),
                   ),
                 ),
-                child: const Row(
+                child: Row(
                   children: [
                     Icon(Icons.medical_information_outlined,
                         color: AppColors.danger, size: 28),
@@ -529,7 +529,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 const SizedBox(width: 12),
-                const Expanded(
+                Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
